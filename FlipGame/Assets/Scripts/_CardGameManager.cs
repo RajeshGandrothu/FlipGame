@@ -260,6 +260,9 @@ public class _CardGameManager : MonoBehaviour
     {
         info.SetActive(show);
     }
+    public void Close(){
+        Application.Quit();
+    }
 
     private void Update()
     {
